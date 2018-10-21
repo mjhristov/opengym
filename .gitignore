@@ -1,0 +1,20 @@
+# Dependency directories
+node_modules
+jspm_packages
+bower_components
+
+# Optional npm cache directory
+.npm
+# ignores only .js files in the root folder
+/*.js
+# ignores all .js.map in subdirectories recursive from the current 
+# folder (does not include the current folder)
+.js.map
+
+
+#Visual Studio specific files and folders
+# Ignore Visual Studio Code specific files
+.vscode/*
+
+# Visual Studio 2015/2017 cache/options directory
+.vs/*
